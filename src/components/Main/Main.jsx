@@ -3,6 +3,8 @@ import './Main.css'
 import { assets } from '../../assets/assets'
 
 const Main = () => {
+ 
+
     return (
         <div className='main'>
             <div className="nav">
@@ -42,7 +44,9 @@ const Main = () => {
                         </div>
                     </div>
                     <p className="bottom-info">
-                    Gemini may show inaccurate information, including about people. Be sure to double-check your answers. <a href="https://support.google.com/gemini/answer/13594961?visit_id=638556379228934883-4230755254&p=privacy_notice&rd=1#privacy_notice">Your privacy and Gemini apps</a> 
+                    Gemini may show inaccurate information, including about people. Be sure to double-check your answers. 
+                    <a href="https://support.google.com/gemini/answer/13594961?visit_id=638556379228934883-4230755254&p=privacy_notice&rd=1#privacy_notice"
+                    >Your privacy and Gemini apps</a> 
                     </p>
                 </div>
             </div>
